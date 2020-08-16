@@ -16,6 +16,8 @@
 		C9E7FDBB24E7325A002A07E1 /* TecHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7FDBA24E7325A002A07E1 /* TecHacksProjectTests.swift */; };
 		DA10F25F24E8CD3700C1EA23 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F25E24E8CD3700C1EA23 /* signUpViewController.swift */; };
 		DA10F26124E8CEDB00C1EA23 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F26024E8CEDB00C1EA23 /* logInViewController.swift */; };
+		DA10F26324E8FA4900C1EA23 /* easyYogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F26224E8FA4900C1EA23 /* easyYogaViewController.swift */; };
+		DA10F26524E8FAA200C1EA23 /* yogaworkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F26424E8FAA200C1EA23 /* yogaworkoutsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		C9E7FDBC24E7325A002A07E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA10F25E24E8CD3700C1EA23 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		DA10F26024E8CEDB00C1EA23 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		DA10F26224E8FA4900C1EA23 /* easyYogaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyYogaViewController.swift; sourceTree = "<group>"; };
+		DA10F26424E8FAA200C1EA23 /* yogaworkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yogaworkoutsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				C9E7FDA324E73258002A07E1 /* AppDelegate.swift */,
 				C9E7FDA524E73258002A07E1 /* SceneDelegate.swift */,
 				C9E7FDA724E73258002A07E1 /* ViewController.swift */,
+				DA10F26424E8FAA200C1EA23 /* yogaworkoutsViewController.swift */,
+				DA10F26224E8FA4900C1EA23 /* easyYogaViewController.swift */,
 				DA10F26024E8CEDB00C1EA23 /* logInViewController.swift */,
 				DA10F25E24E8CD3700C1EA23 /* signUpViewController.swift */,
 				C9E7FDA924E73258002A07E1 /* Main.storyboard */,
@@ -207,9 +213,11 @@
 			files = (
 				C9E7FDA824E73258002A07E1 /* ViewController.swift in Sources */,
 				C9E7FDA424E73258002A07E1 /* AppDelegate.swift in Sources */,
+				DA10F26324E8FA4900C1EA23 /* easyYogaViewController.swift in Sources */,
 				DA10F25F24E8CD3700C1EA23 /* signUpViewController.swift in Sources */,
 				C9E7FDA624E73258002A07E1 /* SceneDelegate.swift in Sources */,
 				DA10F26124E8CEDB00C1EA23 /* logInViewController.swift in Sources */,
+				DA10F26524E8FAA200C1EA23 /* yogaworkoutsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
