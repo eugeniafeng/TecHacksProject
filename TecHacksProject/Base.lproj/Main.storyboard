@@ -814,10 +814,10 @@
             </objects>
             <point key="canvasLocation" x="-2201.449275362319" y="1927.9017857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Wellness View Controller-->
         <scene sceneID="9PQ-T3-fhh">
             <objects>
-                <viewController id="WAT-hP-QjH" sceneMemberID="viewController">
+                <viewController id="WAT-hP-QjH" customClass="wellnessViewController" customModule="homefit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QUG-EJ-ETr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -923,6 +923,9 @@
                                 <state key="normal" title="Sad">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="sad:" destination="WAT-hP-QjH" eventType="touchUpInside" id="RVy-XR-4SV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yL9-Gq-zXo">
                                 <rect key="frame" x="204" y="212" width="0.0" height="0.0"/>
@@ -960,8 +963,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[                                  ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4X0-Lz-kbU">
-                                <rect key="frame" x="116" y="246" width="163" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[    choose mood   ]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4X0-Lz-kbU">
+                                <rect key="frame" x="116" y="246" width="166" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1030,6 +1033,9 @@ QWR2aWNlEC9TdG9yaWVzA
                         <viewLayoutGuide key="safeArea" id="F6v-1I-cI9"/>
                     </view>
                     <navigationItem key="navigationItem" id="BG9-C8-P5U"/>
+                    <connections>
+                        <outlet property="label" destination="4X0-Lz-kbU" id="VBJ-Zi-zBo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BNU-aK-ICf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1559,7 +1565,7 @@ QWR2aWNlEC9TdG9yaWVzA
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COs-NN-UcX">
-                                <rect key="frame" x="354" y="20" width="34" height="30"/>
+                                <rect key="frame" x="360" y="20" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -1802,9 +1808,9 @@ QWR2aWNlEC9TdG9yaWVzA
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qbh-yn-jFp"/>
+        <segue reference="JBj-66-ONK"/>
         <segue reference="3Zu-9r-u0T"/>
-        <segue reference="LH2-b6-8IN"/>
+        <segue reference="GsR-ji-jLR"/>
         <segue reference="voB-1l-hC9"/>
         <segue reference="3fU-C1-fo7"/>
     </inferredMetricsTieBreakers>
