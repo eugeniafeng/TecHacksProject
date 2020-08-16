@@ -31,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9E7FDA024E73258002A07E1 /* TecHacksProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TecHacksProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E7FDA024E73258002A07E1 /* homefit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homefit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E7FDA324E73258002A07E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9E7FDA524E73258002A07E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C9E7FDA724E73258002A07E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		C9E7FDA124E73258002A07E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9E7FDA024E73258002A07E1 /* TecHacksProject.app */,
+				C9E7FDA024E73258002A07E1 /* homefit.app */,
 				C9E7FDB624E7325A002A07E1 /* TecHacksProjectTests.xctest */,
 			);
 			name = Products;
@@ -128,7 +128,7 @@
 			);
 			name = TecHacksProject;
 			productName = TecHacksProject;
-			productReference = C9E7FDA024E73258002A07E1 /* TecHacksProject.app */;
+			productReference = C9E7FDA024E73258002A07E1 /* homefit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C9E7FDB524E73259002A07E1 /* TecHacksProjectTests */ = {
@@ -385,7 +385,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecHacksProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = homefit;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -403,7 +403,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecHacksProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = homefit;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
