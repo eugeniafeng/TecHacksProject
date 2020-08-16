@@ -14,6 +14,8 @@
 		C9E7FDAD24E73259002A07E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E7FDAC24E73259002A07E1 /* Assets.xcassets */; };
 		C9E7FDB024E73259002A07E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E7FDAE24E73259002A07E1 /* LaunchScreen.storyboard */; };
 		C9E7FDBB24E7325A002A07E1 /* TecHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7FDBA24E7325A002A07E1 /* TecHacksProjectTests.swift */; };
+		DA10F25F24E8CD3700C1EA23 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F25E24E8CD3700C1EA23 /* signUpViewController.swift */; };
+		DA10F26124E8CEDB00C1EA23 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F26024E8CEDB00C1EA23 /* logInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		C9E7FDB624E7325A002A07E1 /* TecHacksProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TecHacksProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E7FDBA24E7325A002A07E1 /* TecHacksProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecHacksProjectTests.swift; sourceTree = "<group>"; };
 		C9E7FDBC24E7325A002A07E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA10F25E24E8CD3700C1EA23 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		DA10F26024E8CEDB00C1EA23 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				C9E7FDA324E73258002A07E1 /* AppDelegate.swift */,
 				C9E7FDA524E73258002A07E1 /* SceneDelegate.swift */,
 				C9E7FDA724E73258002A07E1 /* ViewController.swift */,
+				DA10F26024E8CEDB00C1EA23 /* logInViewController.swift */,
+				DA10F25E24E8CD3700C1EA23 /* signUpViewController.swift */,
 				C9E7FDA924E73258002A07E1 /* Main.storyboard */,
 				C9E7FDAC24E73259002A07E1 /* Assets.xcassets */,
 				C9E7FDAE24E73259002A07E1 /* LaunchScreen.storyboard */,
@@ -201,7 +207,9 @@
 			files = (
 				C9E7FDA824E73258002A07E1 /* ViewController.swift in Sources */,
 				C9E7FDA424E73258002A07E1 /* AppDelegate.swift in Sources */,
+				DA10F25F24E8CD3700C1EA23 /* signUpViewController.swift in Sources */,
 				C9E7FDA624E73258002A07E1 /* SceneDelegate.swift in Sources */,
+				DA10F26124E8CEDB00C1EA23 /* logInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
